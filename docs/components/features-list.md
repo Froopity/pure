@@ -55,6 +55,7 @@
 | **`pure_begin_prompt_with_current_directory`**     | `true`  | `true`: _`pwd` `git`, `SSH`, duration_.<br/>`false`: _`SSH` `pwd` `git`, duration_.                                  |
 | **`pure_shorten_prompt_current_directory_length`** | `0`     | Shorten every prompt path component but the last to X characters (0 do not shorten)                                  |
 | **`pure_truncate_prompt_current_directory_keeps`** | `0`     | Truncate working directory path in prompt, but keeps the last to `n` components (`0` full path in current directory) |
+| **`pure_truncate_prompt_current_directory_to_git_root`** | `false` | `true`: truncate working directory path in prompt to be relative to the git repository root (keeps the repo folder name and subpath) |
 
 === "Enabled (pwd first)"
 
