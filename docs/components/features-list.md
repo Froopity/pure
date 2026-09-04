@@ -67,6 +67,16 @@
     ![screenshot pure_begin_prompt_with_current_directory=false](/pure/assets/screenshots/light-pure_begin_prompt_with_current_directory%3Dfalse.png#only-light)
     ![screenshot pure_begin_prompt_with_current_directory=false](/pure/assets/screenshots/mirage-pure_begin_prompt_with_current_directory%3Dfalse.png#only-dark)
 
+=== "Truncated to git root"
+
+    ![screenshot pure_truncate_prompt_current_directory_to_git_root=true](/pure/assets/screenshots/light-pure_truncate_prompt_current_directory_to_git_root%3Dtrue.png#only-light)
+    ![screenshot pure_truncate_prompt_current_directory_to_git_root=true](/pure/assets/screenshots/mirage-pure_truncate_prompt_current_directory_to_git_root%3Dtrue.png#only-dark)
+
+=== "Not truncated to git root"
+
+    ![screenshot pure_truncate_prompt_current_directory_to_git_root=false](/pure/assets/screenshots/light-pure_truncate_prompt_current_directory_to_git_root%3Dfalse.png#only-light)
+    ![screenshot pure_truncate_prompt_current_directory_to_git_root=false](/pure/assets/screenshots/mirage-pure_truncate_prompt_current_directory_to_git_root%3Dfalse.png#only-dark)
+
 ### Git
 
 | Option                                 | Default | Description                                          |
