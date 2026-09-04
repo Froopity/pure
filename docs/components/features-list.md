@@ -88,6 +88,10 @@
 | **`pure_symbol_git_unpushed_commits`** | `⇡`     | Branch is ahead upstream (commits to push).          |
 | **`pure_show_numbered_git_indicator`** | `false` | Show number of git stash and commits behind/ahead    |
 
+!!! tip "Truncate the path to the repository root"
+
+    To display the working directory relative to the Git repository root, see [`pure_truncate_prompt_current_directory_to_git_root`](#current-working-directory) in the _Current Working Directory_ section.
+
 !!! tip "Large repositories"
 
     If your prompt feels slow in a large Git repository, see the [Troubleshooting section on large repositories](#large-git-repositories).
